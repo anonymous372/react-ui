@@ -1,0 +1,62 @@
+body{
+    width: 100vw;
+    height: 100vh;
+}
+#app{
+    display: flex;
+    justify-content: space-between   ;
+    width: 100%;
+    height: 100vh;
+}
+#app .sidebar{
+    width: 21%;
+    min-width: 100px;
+}
+#app .content{
+    display: flex;
+    width: 79%;
+    /* height: 100%; */
+    padding: 50px 50px 100px;
+    gap: 30px;
+}
+#app .left-cont{
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* height: 100% */
+}
+#app .right-cont {
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* height: 100% */
+}
+
+
+/* One For All (Children) */
+
+.head {
+    padding: 10px 20px;
+    font-size: 25px;
+    color: #ccc;
+    background-color: rgb(245, 245, 245);
+    border-bottom: 1px solid #ddd;
+}
+
+@media screen and (max-width:1000px) {
+    #app .content{
+        flex-direction: column;
+    }
+    #app .left-cont{
+        width: 100%;
+        margin-bottom: 20px;
+        gap: 30px;
+    }
+    #app .right-cont{
+        width: 100%;
+        gap: 30px;
+        margin-bottom: 20px;
+    }
+}

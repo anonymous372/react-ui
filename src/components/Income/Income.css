@@ -1,0 +1,22 @@
+#income{
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.content-in{
+    padding: 20px;
+}
+.item-in{
+    margin: 20px 0;
+}
+.item-in input{
+    margin-right: 20px;
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+}
+.item-in label{
+    color: #333;
+    font-size: 20px;
+    font-weight: 500;
+}
