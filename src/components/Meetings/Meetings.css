@@ -3,6 +3,10 @@
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
+#meetings .head{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
 .content-mt{
     padding: 20px;
 }
