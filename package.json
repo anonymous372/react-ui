@@ -2,7 +2,7 @@
   "name": "r_shah",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://anonymous372.github.io",
+  "homepage": "https://anonymous372.github.io/react-ui",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.3",
     "@testing-library/react": "^12.1.4",
